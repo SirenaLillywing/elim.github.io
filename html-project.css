@@ -1,0 +1,62 @@
+/* div {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+} */
+
+@font-face {
+   font-family: googleFont;
+   src: url(SnigletB.ttf);
+}
+@font-face {
+  font-family: sniglet;
+  src: url(Sniglet.ttf);
+}
+@font-face {
+  font-family: schoolbell;
+  src: url(Schoolbell.ttf);
+}
+
+h1 {
+  text-align:center; 
+  color:mediumturquoise;
+  /* not the right font; idk where its getting it from but its cute */
+  font-family: googleFont;
+  /* font-family:Papyrus, fantasy; */
+  font-size:52px;
+}
+
+/* color is placeholder */
+
+body {
+  background-image: url('blueGrid_L.jpg');
+  background-color: darkslateblue;
+  color: darkslateblue; /* ghostwhite; */
+  font-family: schoolbell;
+  padding-left: 35px;
+}
+
+p.small {
+  font-style:italic
+}
+
+table, th, td {
+  border:2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+/* Center the Table:
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+/*no clr besides solid black will work :( */
+
+img {
+  border-radius: 8px;
+}
+
+/* Change Color of SeparationLine at Bottom */
+hr { 
+  color:darkcyan; 
+  border-style: solid
+}
